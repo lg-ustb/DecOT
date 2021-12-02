@@ -1,0 +1,2 @@
+	statistic	pvalue
+BisqueRNA	1.1053323053398254	0.2725488586585831

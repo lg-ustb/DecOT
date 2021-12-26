@@ -66,7 +66,7 @@ The input files are tab-delimited .txt or .csv files, which contain:
 
 An example dataset (simulation/Batch1) is provided to run DecOT with default parameters (gamma: 0.001, rho: 0.001). To run DecOT, please follow commands below from the DecOT directory.
 
-* python DecOT.py --working_dir ../results/simulation/Batch1/ --y sim0_Y.csv --c sim0_C.csv --pDataC sim0_pDataC.csv --metric dissTOM --cores 6 --gamma 0.001 --rho 0.001
+* python DecOT.py --working_dir ../results/simulation/Batch1/ --y sim0_Y.csv --c sim0_C.csv --pDataC sim0_pDataC.csv --metric dissTOM --gamma 0.001 --rho 0.001
 * python DecOT.py --ensemble --working_dir ../results/simulation/Batch1/ --y sim0_Y.csv --c sim0_C.csv --pDataC sim0_pDataC.csv --metric dissTOM --cores 6 --gamma 0.001 --rho 0.001
 
 We also provide a toy dataset which are mixtures of gauss distributions:

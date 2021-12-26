@@ -3,7 +3,7 @@ DecOT is a bulk gene expression deconvolution method that uses the optimal trans
 
 ## Installation
 
-DecOT is a python script developed in a Windows and Linux 64-bit architecture. To use DecOT, the following python packages need to be installed.
+DecOT is a python script developed in a Windows and Linux 64-bit architecture. To use DecOT, the following packages need to be installed：
 
 python packages:
 
@@ -33,7 +33,7 @@ The input files are tab-delimited .txt or .csv files, which contain:
 * pDataC.csv : Cell phenotype data with three columns ('cellID', 'cellType', 'sampleID')
 
 ## Parameters
-        def decot_ensemble(Y, C, pDataC, ground_cost_path, metric, save_path, cores=4, gamma=0.001, rho=0.001):
+      def decot_ensemble(Y, C, pDataC, ground_cost_path, metric, save_path, cores=4, gamma=0.001, rho=0.001):
         Y: `pandas dataframe`
             Bulk mixtures (genes x mixtures).
 

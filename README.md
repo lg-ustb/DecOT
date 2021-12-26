@@ -1,7 +1,7 @@
-#DecOT
+# DecOT
 DecOT is a bulk gene expression deconvolution method that uses the optimal transport distance as loss and apply an ensemble framework to integrate reference information from scRNA-seq data of multiple individuals. 
 
-##Installation
+## Installation
 
 DecOT is a python script developed in a Windows and Linux 64-bit architecture. To use DecOT, the following python packages need to be installed.
 
@@ -25,15 +25,15 @@ DecOT use wasserstein_NMF_coefficient_step.m developed by Rolet(2016) to calcula
 * Rolet, A., Cuturi, M., & Peyré, G. (2016, May). Fast dictionary learning with a smoothed Wasserstein loss. In Artificial Intelligence and Statistics (pp. 630-638). PMLR.
 
 
-##Input file
+## Input file
 The input files are tab-delimited .txt or .csv files, which contain:
 
 * Y.csv : Bulk mixtures (genes * mixtures)
 * C.csv : Reference cells (genes * cells)
 * pDataC.csv : Cell phenotype data with three columns ('cellID', 'cellType', 'sampleID')
 
-##Parameters
-    def decot_ensemble(Y, C, pDataC, ground_cost_path, metric, save_path, cores=4, gamma=0.001, rho=0.001):
+## Parameters
+        def decot_ensemble(Y, C, pDataC, ground_cost_path, metric, save_path, cores=4, gamma=0.001, rho=0.001):
         Y: `pandas dataframe`
             Bulk mixtures (genes x mixtures).
 
@@ -62,7 +62,7 @@ The input files are tab-delimited .txt or .csv files, which contain:
             Default: 0.001
 
 
-##Example 
+## Example 
 
 An example dataset (simulation/Batch1) is provided to run DecOT with default parameters (gamma: 0.001, rho: 0.001). To run DecOT, please follow commands below from the DecOT directory.
 

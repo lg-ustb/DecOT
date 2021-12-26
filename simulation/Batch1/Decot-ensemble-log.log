@@ -1,0 +1,67 @@
+2021-12-27 01:22:38,591 - Decot-ensemble - INFO : Data set information:
+2021-12-27 01:22:38,591 - Decot-ensemble - INFO :    genes: 1975
+2021-12-27 01:22:38,592 - Decot-ensemble - INFO :    cell types: 4
+2021-12-27 01:22:38,592 - Decot-ensemble - INFO :    individuals: 3
+2021-12-27 01:22:38,615 - Decot-ensemble - INFO : Computing ground cost matrix...
+2021-12-27 01:22:52,400 - Decot-ensemble - INFO : Computing cell type-specific expression matrix for each individual...
+2021-12-27 01:22:52,405 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:22:52,406 - Decot-ensemble - INFO : Prepare data for Batch1:
+2021-12-27 01:22:52,420 - Decot-ensemble - INFO : Batch1 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:22:52,421 - Decot-ensemble - INFO : Batch1 celltype counts: 4
+2021-12-27 01:22:52,421 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:22:52,421 - Decot-ensemble - INFO : Prepare data for Batch2:
+2021-12-27 01:22:52,432 - Decot-ensemble - INFO : Batch2 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:22:52,433 - Decot-ensemble - INFO : Batch2 celltype counts: 4
+2021-12-27 01:22:52,433 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:22:52,433 - Decot-ensemble - INFO : Prepare data for Batch3:
+2021-12-27 01:22:52,443 - Decot-ensemble - INFO : Batch3 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:22:52,444 - Decot-ensemble - INFO : Batch3 celltype counts: 4
+2021-12-27 01:22:52,444 - Decot-ensemble - INFO : Start wasserstein deconvolution for all individuals...
+2021-12-27 01:24:27,472 - Decot-ensemble - INFO : Data set information:
+2021-12-27 01:24:27,472 - Decot-ensemble - INFO :    genes: 1975
+2021-12-27 01:24:27,472 - Decot-ensemble - INFO :    cell types: 4
+2021-12-27 01:24:27,472 - Decot-ensemble - INFO :    individuals: 3
+2021-12-27 01:24:27,497 - Decot-ensemble - INFO : Computing ground cost matrix...
+2021-12-27 01:24:41,358 - Decot-ensemble - INFO : Computing cell type-specific expression matrix for each individual...
+2021-12-27 01:24:41,361 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:24:41,362 - Decot-ensemble - INFO : Prepare data for Batch1:
+2021-12-27 01:24:41,375 - Decot-ensemble - INFO : Batch1 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:24:41,375 - Decot-ensemble - INFO : Batch1 celltype counts: 4
+2021-12-27 01:24:41,375 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:24:41,375 - Decot-ensemble - INFO : Prepare data for Batch2:
+2021-12-27 01:24:41,387 - Decot-ensemble - INFO : Batch2 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:24:41,388 - Decot-ensemble - INFO : Batch2 celltype counts: 4
+2021-12-27 01:24:41,388 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:24:41,388 - Decot-ensemble - INFO : Prepare data for Batch3:
+2021-12-27 01:24:41,399 - Decot-ensemble - INFO : Batch3 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:24:41,400 - Decot-ensemble - INFO : Batch3 celltype counts: 4
+2021-12-27 01:24:41,400 - Decot-ensemble - INFO : Start wasserstein deconvolution for all individuals...
+2021-12-27 01:25:42,537 - Decot-ensemble - INFO :   Batch1 cost: 55.20603013038635 (s)
+2021-12-27 01:25:42,695 - Decot-ensemble - INFO :   Batch2 cost: 52.34711694717407 (s)
+2021-12-27 01:25:42,707 - Decot-ensemble - INFO :   Batch3 cost: 55.09266972541809 (s)
+2021-12-27 01:25:42,716 - Decot-ensemble - INFO : Computing ensemble results...
+2021-12-27 01:28:51,256 - Decot-ensemble - INFO : Data set information:
+2021-12-27 01:28:51,257 - Decot-ensemble - INFO :    genes: 1975
+2021-12-27 01:28:51,257 - Decot-ensemble - INFO :    cell types: 4
+2021-12-27 01:28:51,257 - Decot-ensemble - INFO :    individuals: 3
+2021-12-27 01:28:51,281 - Decot-ensemble - INFO : Computing ground cost matrix...
+2021-12-27 01:29:04,963 - Decot-ensemble - INFO : Computing cell type-specific expression matrix for each individual...
+2021-12-27 01:29:04,967 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:29:04,967 - Decot-ensemble - INFO : Prepare data for Batch1:
+2021-12-27 01:29:04,983 - Decot-ensemble - INFO : Batch1 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:29:04,983 - Decot-ensemble - INFO : Batch1 celltype counts: 4
+2021-12-27 01:29:04,983 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:29:04,983 - Decot-ensemble - INFO : Prepare data for Batch2:
+2021-12-27 01:29:04,994 - Decot-ensemble - INFO : Batch2 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:29:04,994 - Decot-ensemble - INFO : Batch2 celltype counts: 4
+2021-12-27 01:29:04,994 - Decot-ensemble - INFO : ------------------------------------------------
+2021-12-27 01:29:04,994 - Decot-ensemble - INFO : Prepare data for Batch3:
+2021-12-27 01:29:05,006 - Decot-ensemble - INFO : Batch3 celltype: ['Group1', 'Group2', 'Group3', 'Group4']
+2021-12-27 01:29:05,006 - Decot-ensemble - INFO : Batch3 celltype counts: 4
+2021-12-27 01:29:05,006 - Decot-ensemble - INFO : Start wasserstein deconvolution for all individuals...
+2021-12-27 01:30:06,075 - Decot-ensemble - INFO :   Batch1 cost: 55.039172410964966 (s)
+2021-12-27 01:30:06,237 - Decot-ensemble - INFO :   Batch2 cost: 53.50959634780884 (s)
+2021-12-27 01:30:06,248 - Decot-ensemble - INFO :   Batch3 cost: 54.59157752990723 (s)
+2021-12-27 01:30:06,257 - Decot-ensemble - INFO : Computing ensemble results...
+2021-12-27 01:30:06,288 - Decot-ensemble - INFO : Weight:[array([0.81728363, 0.14660148, 0.03611485], dtype=float32)]
+2021-12-27 01:30:06,348 - Decot-ensemble - INFO : DecOT ensemble-dissTOM completed!

@@ -1,0 +1,6 @@
+2021-12-27 01:20:16,724 - Decot - INFO : Data set information:
+2021-12-27 01:20:16,724 - Decot - INFO :    genes: 1975
+2021-12-27 01:20:16,725 - Decot - INFO :    cell types: 4
+2021-12-27 01:20:16,725 - Decot - INFO : Computing ground cost matrix...
+2021-12-27 01:20:30,580 - Decot - INFO : Computing cell type-specific expression matrix...
+2021-12-27 01:21:16,776 - Decot - INFO : cost time: 39.98338437080383 (s)

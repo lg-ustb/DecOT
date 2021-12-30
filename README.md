@@ -19,7 +19,7 @@ R packages:
 
 * WGCNA
 
-DecOT use wasserstein_NMF_coefficient_step.m developed by Rolet(2016) to calculate Wasserstein loss. We rewrite the .m files into .py format, which is suitable for small batches of data. For data with thousands of genes, we recommend using DecOT with matlab interface. 
+DecOT uses wasserstein_NMF_coefficient_step.m developed by Rolet(2016) to calculate Wasserstein loss. We rewrite the .m files into .py format, which is suitable for small batches of data. For data with thousands of genes, we recommend using DecOT with matlab interface. 
 
 * Rolet, A., Cuturi, M., & Peyré, G. (2016, May). Fast dictionary learning with a smoothed Wasserstein loss. In Artificial Intelligence and Statistics (pp. 630-638). PMLR.
 

@@ -12,8 +12,7 @@ python packages:
 * Scipy
 * POT
 * rpy2
-* logging
-* multiprocessing
+* multiprocess
 * matlab
 
 R packages:
@@ -73,4 +72,6 @@ We also provide a toy dataset which are mixtures of gauss distributions:
 
 * python DecOT.py --random_gauss_test --genes 100 --types 5 --mixtures 10
 
-The above is to use DecOT on the command line. You can also install the DecOT package and directly call the functions in it.
+You can download our source code and use DecOT in command line or install the DecOT package and directly call the functions in it:
+
+        python setup.py install
